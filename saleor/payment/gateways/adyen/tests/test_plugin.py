@@ -128,7 +128,7 @@ def test_process_payment_additional_action(
 
     payment_adyen_for_checkout.refresh_from_db()
     assert payment_adyen_for_checkout.extra_data == json.dumps(
-        {"payment_data": payment_data, "parameters": ["payload"]}
+        [{"payment_data": payment_data, "parameters": ["payload"]}]
     )
 
 
