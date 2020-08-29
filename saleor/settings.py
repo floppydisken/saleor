@@ -261,6 +261,8 @@ INSTALLED_APPS = [
     "django_countries",
     "django_filters",
     "phonenumber_field",
+    # Snack Patruljen
+    "snackpatruljen.delivery",
 ]
 
 
