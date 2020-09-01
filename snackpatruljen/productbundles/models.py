@@ -15,6 +15,5 @@ class ProductBundle(Collection):
     )
     fixed_price = MoneyField(
         amount_field="fixed_price_amount",
-        currency_field="",
+        currency_field="currency",
     )
-    pass
